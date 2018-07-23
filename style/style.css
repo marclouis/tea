@@ -1,0 +1,144 @@
+body {
+  background-color: black ;
+  opacity: 0.9;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: Seashell;
+  margin: 0
+}
+
+/*Header Nav*/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 69px;
+  border-bottom: 1px solid Seashell;
+  position: fixed;
+  background-color: black;
+  margin: auto;
+  width: 100%;
+}
+header img {
+  height: 50px;
+  margin: 10px;
+}
+ul {
+  display: flex;
+  list-style: none;
+  text-decoration: underline;
+  color: Seashell;
+
+}
+
+ul li  {
+  margin-right: 25px;
+
+}
+
+ul li a {
+  color: Seashell;
+
+}
+
+
+
+
+/*Hero Image*/
+
+.heroimg {
+  background-image: url(images/back.jpg);
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+}
+
+.heroimgblack {
+  background-color: black;
+  text-align: center;
+  width: 100%;
+}
+
+/*Menu Section*/
+
+.menu {
+  width: 1200px;
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+
+}
+
+.menu .middle {
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+.menu-items {
+  display: block;
+  margin: 10px;
+}
+
+.menu-items img {
+  height: 200px;
+  width: 300px;
+}
+
+
+
+/*Locations Sections*/
+
+
+.location {
+  background-image: url("images/locations.jpg");
+  height: 500px;
+  width:1200px;
+  padding-top: 10%;
+
+}
+
+.location .box {
+  background-color: black;
+  width: 300px;
+  text-align: center;
+  opacity: 1;
+}
+
+.location .middle h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.flexloc {
+  display: flex;
+  justify-content: center;
+}
+
+#down {
+  margin-right: 40px;
+}
+#east{
+ margin-right: 40px;
+}
+
+/*Footer Section*/
+
+footer .ftmid {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+footer #copy {
+  text-align: left;
+}
